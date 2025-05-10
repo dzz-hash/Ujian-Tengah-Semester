@@ -23,11 +23,11 @@
 
     <TextView
         android:id="@+id/Label_login"
-        android:layout_width="250dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:text="Login Member"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:fontFamily="@font/font3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,13 +54,13 @@
         android:id="@+id/Text_nama"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/font3"
         android:hint="Enter_Your_Name"
         android:textColorHint="@color/grey"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintHorizontal_bias=".783"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Label_login" />
 
